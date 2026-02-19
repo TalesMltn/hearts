@@ -1,0 +1,16 @@
+Prueba la URL tú mismo primero (para confirmar):
+Abre en tu celular con datos móviles (no WiFi de casa, para simular que estás fuera).
+Pega: https://scrubby-unexacerbated-argelia.ngrok-free.dev
+Si dice "No es seguro" o "Advertencia" → toca "Avanzado" o "Continuar" (es normal en Ngrok, el certificado es temporal).
+Deberías ver tu página completa: "TE EXTRAÑO", corazones flotando, botón "SÍ" y "NO" moviéndose, etc.
+
+Envíasela a tus amigos:
+Mándales por WhatsApp, Telegram o donde sea:
+"Abre este link en tu navegador: https://scrubby-unexacerbated-argelia.ngrok-free.dev
+Si dice 'No es seguro', toca Avanzado → Continuar. ¡Es seguro!"
+Ellos deben ver lo mismo que tú.
+
+Mantén todo abierto:
+No cierres la terminal de Laravel (php artisan serve).
+No cierres la terminal de Ngrok.
+El link funciona mientras ambas estén corriendo. Si cierras alguna, el link deja de funcionar (pero puedes volver a abrir Ngrok y obtendrás uno nuevo).
